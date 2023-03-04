@@ -1,0 +1,47 @@
+.boton{
+    background-color: #62a4ab;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 #62a4ab;
+    position: relative;
+    top: 15px;
+    left: 2%;
+}
+
+.cabecera{
+    text-align: center;
+    padding: 5px;
+}
+
+.cabecera img{
+    border-radius: 50%;
+}
+
+.cuerpo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cajas{
+    width: 30%;
+    border-radius: 15px;
+    padding: 5px;
+    box-shadow: 0 0 10px 0 #62a4ab;
+    text-align: center;
+}
+
+.cajas h2{
+    font-size: 40px;
+}
+
+.datos{
+    padding-bottom: 5%;
+    font-size: 20px;
+}

@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Mynerve&display=swap");
+
+body {
+  font-family: "Mynerve", cursive;
+  color: #62a4ab;
+  background-color: #1c1c1c;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6em;
+  line-height: 0.8;
+  letter-spacing: -0.05em;
+}
+

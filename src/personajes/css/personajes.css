@@ -1,0 +1,106 @@
+.filtrador{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.filtraNombre{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.filtraNombre input{
+    font-family: "Mynerve", cursive;
+    font-size: 20px;
+    width: 30%;
+    height: 50%;
+    border-radius: 5px;
+    border: 1px solid #62a4ab;
+    background-color: #1c1c1c;
+    color: #62a4ab;
+    margin-left: 1%;
+}
+
+.filtraEstado{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.filtraEstado select{
+    font-family: "Mynerve", cursive;
+    font-size: 20px;
+    width: 20%;
+    height: 55%;
+    border-radius: 5px;
+    border: 1px solid #62a4ab;
+    background-color: #1c1c1c;
+    color: #62a4ab;
+    margin-left: 1%;
+}
+
+.paginacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.botonPaginacion{
+    background-color: transparent;
+    color: #62a4ab;
+    font-size: 20px;
+    font-family: "Mynerve", cursive;
+    border: 1px solid #62a4ab;
+    border-radius: 15px;
+    margin: 1%;
+    padding: 0.5%;
+    cursor: pointer;
+}
+
+.botonPaginacion:hover{
+    background-color: #62a4ab;
+    color: #1c1c1c;
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.tarjeta{
+    margin: 2%;
+    width: 350px;
+    border: 1px solid #62a4ab;
+    border-radius: 15px;
+}
+
+.tarjeta:hover{
+    box-shadow: 0 0 10px #62a4ab;
+    cursor: pointer;
+}
+
+.tarjeta img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.tarjeta h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+.tarjeta p{
+    padding-left: 2%;
+}

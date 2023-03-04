@@ -2,11 +2,11 @@
     "routes": [
       {
         "src": "/personaje/:id",
-        "dest": "/personaje.html"
+        "dest": "/personaje/pages/personaje.jsx"
       },
       {
         "src": "/(.*)",
-        "dest": "/index.html"
+        "dest": "/personajes/personajes.jsx"
       }
     ]
   }

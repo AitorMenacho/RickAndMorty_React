@@ -1,0 +1,13 @@
+{
+    "routes": [
+      {
+        "src": "/personaje/:id",
+        "dest": "/personaje.html"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/index.html"
+      }
+    ]
+  }
+  
